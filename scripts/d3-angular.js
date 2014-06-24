@@ -9520,10 +9520,10 @@ angular.module('clientApp').directive('wordcloud', [
         };
 
         function setHeightWidth() {
-          width = 350;
-          height = 300;
-          fontFamily = 'Impact';
-          fontSize = 60;
+          width = 300;
+          height = 340;
+          fontFamily = 'Viga';
+          fontSize = 50;
 
           if (angular.isDefined(attrs.width))
             width = attrs.width;
