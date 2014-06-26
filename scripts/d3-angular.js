@@ -9606,7 +9606,6 @@ angular.module('clientApp').directive('wordcloud', [
         scope.$watch('words', function () {
           if(angular.isArray(scope.words))
             if(scope.words.length > 0) {
-              console.log(scope.wordId);
               init(); 
             }
         }, true);
